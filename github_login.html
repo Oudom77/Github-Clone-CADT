@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign in to GitHub</title>
+  <link rel="stylesheet" href="css/login.css" />
+</head>
+<body>
+
+  <main class="page">
+    <!-- Logo -->
+    <div class="logo-wrap">
+      <img src="pics/git.png" alt="GitHub Logo" class="logo" />
+    </div>
+
+    <h1 class="title">Sign in to GitHub</h1>
+
+    <!-- Login Card -->
+    <section class="card">
+      <form action="#" method="post" class="form">
+
+        <label class="label" for="username">Username or email address</label>
+        <input class="input" type="text" id="username" name="username" />
+
+        <div class="row-between">
+          <label class="label" for="password">Password</label>
+          <a class="link" href="#">Forgot password?</a>
+        </div>
+        <input class="input" type="password" id="password" name="password" />
+
+        <button class="btn" type="submit">Sign in</button>
+      </form>
+    </section>
+
+    <!-- Below Card -->
+    <section class="card card-alt">
+      <p class="muted">
+        New to GitHub? <a class="link" href="#">Create an account</a>
+      </p>
+      <p class="muted">
+        <a class="link" href="#">Sign in with a passkey</a>
+      </p>
+    </section>
+
+    <footer class="footer">
+      <a class="footer-link" href="#">Terms</a>
+      <a class="footer-link" href="#">Privacy</a>
+      <a class="footer-link" href="#">Security</a>
+      <a class="footer-link" href="#">Contact GitHub</a>
+    </footer>
+  </main>
+
+</body>
+</html>
